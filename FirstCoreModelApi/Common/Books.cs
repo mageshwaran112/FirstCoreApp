@@ -19,4 +19,30 @@ namespace FirstCoreModelApi.Common
         public DateTime DateAddded { get; set; }
 
     }
+    public class BooksInsert
+    {
+        public string Title { get; set; }
+        public string Description { get; set; }
+        public bool IsRead { get; set; }
+        public DateTime? DateRead { get; set; }
+        public Int32? Rate { get; set; }
+        public string General { get; set; }
+        public string CoverUrl { get; set; }
+        public DateTime DateAddded { get; set; }
+
+    }
+    public class BooksUpdate
+    {
+        public Int32 Id { get; set; }
+        public string Title { get; set; }
+        public string Description { get; set; }
+        public bool IsRead { get; set; }
+        public DateTime? DateRead { get; set; }
+        public Int32? Rate { get; set; }
+        public string General { get; set; }
+        public string CoverUrl { get; set; }
+        public DateTime DateAddded { get; set; }
+
+    }
+
 }
